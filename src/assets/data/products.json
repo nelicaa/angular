@@ -1,0 +1,107 @@
+[{
+        "id": 1,
+        "name": "Cezar",
+        "desc": "A Caesar salad  is a green salad of romaine lettuce and croutons dressed with lemon juice.",
+        "price": 200,
+        "img": "01.jpg",
+        "kat": 2
+    },
+    {
+        "id": 2,
+        "name": "Capricciosa",
+        "desc": "Pizza capricciosa is a style of pizza in Italian cuisine prepared with mozzarella cheese, Italian baked ham, mushroom, artichoke and tomato.",
+        "price": 150,
+        "img": "02.jpg",
+        "kat": 1
+    },
+    {
+        "id": 3,
+        "name": "Vegeteriana",
+        "desc": "Pizza Vegetariana is a Main dish. It begins at level 0. To achieve level 10 in this dish, you need 10 mushrooms, 10 oregano, 10 sweetcorn and 10 vials of olive.",
+        "price": 250,
+        "img": "vegeteriana.jpg",
+        "kat": 1
+    },
+    {
+        "id": 4,
+        "name": "Vegeterian salad",
+        "desc": "You can use any fruits and vegetables to make many kinds of salads. The simplest vegetable salad is to chop up lettuce and mix it with any other vegetable",
+        "price": 180,
+        "img": "07.jpg",
+        "kat": 2
+    },
+    {
+        "id": 5,
+        "name": "Coca cola",
+        "desc": "Coca-Cola, or Coke, is a carbonated soft drink manufactured by The Coca-Cola Company. ",
+        "price": 117,
+        "img": "kokakola.jpg",
+        "kat": 3
+    },
+    {
+        "id": 6,
+        "name": "Beer",
+        "desc": "Beer is one of the oldest and most widely consumed alcoholic drinks in the world",
+        "price": 250,
+        "img": "beer.jpg",
+        "kat": 3
+    },
+    {
+        "id": 7,
+        "name": "Coffee",
+        "desc": "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.",
+        "price": 150,
+        "img": "kafa.jpg",
+        "kat": 3
+    },
+    {
+        "id": 8,
+        "name": "Cheese",
+        "desc": "Cheese is a dairy product, derived from milk and produced in wide ranges of flavors, textures and forms by coagulation of the milk protein casein.",
+        "price": 360,
+        "img": "cheese.jpg",
+        "kat": 1
+    }, {
+        "id": 9,
+        "name": "Chili",
+        "desc": "The chili pepper from Nahuatl chīlli is the berry-fruit of plants from the genus Capsicum which are members of the nightshade family, Solanaceae.",
+        "price": 222,
+        "img": "chili.jpg",
+        "kat": 1
+    }, {
+        "id": 10,
+        "name": "Strawberry salad",
+        "desc": "The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries",
+        "price": 350,
+        "img": "strawbery.jpg",
+        "kat": 2
+    }, {
+        "id": 11,
+        "name": "Broccoli",
+        "desc": "Broccolini or baby broccoli is a green vegetable similar to broccoli but with smaller florets and longer, thin stalks",
+        "price": 280,
+        "img": "broccoli.jpg",
+        "kat": 2
+    }, {
+        "id": 12,
+        "name": "Green salad",
+        "desc": "Here are 13 of the healthiest leafy green vegetables to include in your diet.",
+        "price": 170,
+        "img": "green.jpg",
+        "kat": 2
+    }, {
+        "id": 13,
+        "name": "Tuna salad",
+        "desc": "A tuna is a saltwater fish that belongs to the tribe Thunnini, a subgrouping of the Scombridae (mackerel) family.",
+        "price": 420,
+        "img": "tuna.jpg",
+        "kat": 2
+    }, {
+        "id": 14,
+        "name": "Tomato salad",
+        "desc": "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as a tomato plant. ",
+        "price": 145,
+        "img": "tomato.jpg",
+        "kat": 2
+    }
+]

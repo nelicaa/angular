@@ -1,0 +1,27 @@
+<div class="tm-paging-links">
+
+    <nav>
+        <ul>
+            <li *ngFor="let k of category" class="tm-paging-item">
+                <a (click)="ShowProducts(k.id)" [ngClass]="{active: klik && kat===k.id}" class="tm-paging-link">{{k.name}}</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="row tm-gallery">
+    <!-- gallery page 1 -->
+
+    <div id="tm-gallery-page-pizza" class="tm-gallery-page">
+        <!-- {{kat}} -->
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item " [@product] *ngFor="let p of productKat">
+            <figure>
+                <img src="assets/img/gallery/{{p.img}} " alt="Image " class="img-fluid tm-gallery-img " />
+                <figcaption>
+                    <h4 class="tm-gallery-title ">{{p.name}}</h4>
+                    <p class="tm-gallery-description ">{{p.desc}}</p>
+                    <p class="tm-gallery-price ">{{p.price | pipe | number: '1.0-2'}} eur</p>
+                </figcaption>
+            </figure>
+        </article>
+    </div>
+</div>

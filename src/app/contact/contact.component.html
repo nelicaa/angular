@@ -1,0 +1,58 @@
+<header class="row tm-welcome-section">
+    <h2 class="col-12 text-center tm-section-title">Contact Page</h2>
+    <p class="col-12 text-center">If you want to become part of our team, you can apply for the job below</p>
+</header>
+<div class="tm-container-inner-2 tm-contact-section">
+    <div class="row" *ngIf="forma != undefined">
+        <div class="col-md-6">
+            <form action="" method="POST" class="tm-contact-form" [formGroup]="forma" (ngSubmit)="FormSubmit()">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" formControlName="name" #name placeholder="Name" required="" />
+
+                    <div *ngIf="!forma?.get('name')?.valid && forma?.get('name')?.touched">
+                        <small style="color: red;">Please enter a valid first and last name. First capital letter.</small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required="" formControlName="email" #email />
+                    <div *ngIf="!forma?.get('email')?.valid && forma?.get('email')?.touched">
+                        <small style="color: red;">Please enter a valid email. For example nelica.stojadinovic@gmail.com</small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea rows="5" name="message" class="form-control" placeholder="About your profession, where did you work , etc..." required="" formControlName="cv" #cv></textarea>
+                    <div *ngIf="!forma?.get('cv')?.valid && forma?.get('cv')?.touched">
+                        <small style="color: red;">Please enter <strong>minimum</strong> 10 words.</small>
+                    </div>
+                </div>
+
+                <div class="form-group tm-d-flex">
+                    <small style="color: green;" *ngIf="forma?.valid">Everything is okey! You can send your application!</small>
+
+                    <input type="submit" name="submit" class=" tm-btn tm-btn-right" value="Send" [disabled]="!forma?.valid">
+                    <!-- <button type="submit " class="tm-btn tm-btn-success tm-btn-right " [disabled]="!contactForm?.valid ">
+                    Send
+                  </button> -->
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 ">
+            <div class="tm-address-box ">
+                <h4 class="tm-info-title tm-text-success ">Information</h4>
+                <address>
+                    <small>Address:</small>
+<p>Zdravka Čelara 16 </p>
+               </address>
+                <a href="tel:080-090-0110 " class="tm-contact-link ">
+                    <small>Phone:</small>
+                    <p>080-090-0110</p>
+                </a>
+                <a href="mailto:nelica.stojadinovic.136.18@ict.edu.rs " class="tm-contact-link ">
+                    <small>Email:</small> nelica.stojadinovic.136.18@ict.edu.rs
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

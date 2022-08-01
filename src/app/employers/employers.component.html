@@ -1,0 +1,19 @@
+<hr>
+<h2 class="col-12 text-center tm-person-title">
+    Our team</h2>
+<hr>
+<div class="tm-container-inner tm-persons">
+
+    <div class="row">
+        <article *ngFor="let e of employers" class="col-lg-6">
+            <figure class="tm-person">
+                <img src="assets/img/{{e.img}}" alt="Image" class="img-fluid tm-person-img" />
+                <figcaption class="tm-person-description">
+                    <h4 class="tm-person-name">{{e.firstName}} {{e.lastName}}</h4>
+                    <p class="tm-person-title">{{e.profession}}</p>
+                    <p class="tm-person-about">{{e.desc}}
+                    </p>
+                </figcaption>
+            </figure>
+        </article>
+    </div>

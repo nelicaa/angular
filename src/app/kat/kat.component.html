@@ -1,0 +1,10 @@
+<div class="tm-paging-links">
+
+    <nav>
+        <ul>
+            <li *ngFor="let k of category" class="tm-paging-item">
+                <a (click)="showProduct(k.id)" class="tm-paging-link">{{k.name}}</a>
+            </li>
+        </ul>
+    </nav>
+</div>

@@ -1,0 +1,33 @@
+[{
+        "id": 1,
+        "firstName": "Jennifer",
+        "lastName": "Soft",
+        "profession": "Founder and CEO",
+        "desc": "First role as a chef was at Parker’s restaurant at the Rosarium, promoted to the top position after a year as sous chef. Tim finally joined Bougainville, named after an island in Papua New Guinea, when it opened its doors in November 2017.",
+        "img": "about-01.jpg"
+    },
+    {
+        "id": 1,
+        "firstName": "Daisy",
+        "lastName": "Walker",
+        "profession": "Executive Chef",
+        "desc": "Daisy Walker is the no-nonsense type of chef. This mentality is reflected in the way she talks and cooks: focused on the essence, on quality. It also explains why this chef from Gouda lost his heart to Rotterdam. “If you know your way around, it’s a very nice place. ",
+        "img": "about-02.jpg"
+    },
+    {
+        "id": 1,
+        "firstName": "Florence",
+        "lastName": "Nelson",
+        "profession": "Kitchen Manager",
+        "desc": "“I think the most important thing in my life is the team as well – we work a lot of days: sometimes six days, sometimes seven days, sometimes five days, but we work a lot with the team and I think the most important thing is the collaboration with the team.”",
+        "img": "about-03.jpg"
+    },
+    {
+        "id": 1,
+        "firstName": "Valentina",
+        "lastName": "Martin",
+        "profession": "Culinary Director",
+        "desc": "Combining traditional French techniques and Dutch produce with ingredients and flavors from around the world – a nod to the country’s colonial legacy – the chef’s eclectically inspired menu draws inspiration from Asian, Middle Eastern and South American cuisines.",
+        "img": "about-04.jpg"
+    }
+]
